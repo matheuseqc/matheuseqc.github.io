@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.span{
+    color: #025c26;
+}
+#a-unico{
+    color: #025c26;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: aquamarine;
+}
+#h1-principal{
+    padding-bottom: 10px;
+    
+}
+.div-cabecalho1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom,#27A25F, #208C50, #126535, #033E1B);
+    padding-top: 15px;
+    box-shadow: 1px 3px 3px #12653577;
+    
+}
+#div-principal{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+img{
+    width: 100%;
+}
+
+.pequena{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.paragrafo_menu{
+    padding:  10px;
+    display: inline-block;
+
+}
+.paragrafo_menu2{
+    padding:  10px;
+    display: inline-block;
+
+}
+.conteudo-principal{
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px; 
+    
+}
+.paragrafo_menu2:hover{
+    background-color: #27A25F;
+    color: white;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.conteudo-por-dentro{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.h1-do-conteudo{
+    color: #033E1B;
+    font-family: 'idroid';
+}
+.h2-do-conteudo{
+    background-image: linear-gradient(to right, #85E1AD,#AAECC7,#DAF9E6, #E4FAEF, #EBFBF2, white);
+    color: #033E1B;
+    font-family: 'idroid';
+    text-indent: 5px;
+}
+.p-ident{
+    text-indent: 25px;
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.849);
+    background-color: #126535;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+#div-video{
+    text-align: center;
+    background-color: #033E1B;
+    padding-bottom: 56.5%;    
+    position: relative;
+}
+#div-video> iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+.ultimo-h2{
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #27A25F;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.modifica-ultima{
+    margin-top: 10px;
+    background-color: rgb(193, 226, 193);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+}
+#conteudo-lista{
+    display: inline-block;
+}
+
+div > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
